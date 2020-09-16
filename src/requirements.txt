@@ -37,7 +37,8 @@ jupyterlab-pygments==0.1.1
 jupyterlab-server==1.2.0
 MarkupSafe==1.1.1
 mistune==0.8.4
-modin==0.8.0
+git+https://github.com/modin-project/modin.git@0c0b6f64bc9c6afc1267fe9fc703a0e30d783f96
+modin[ray] @ git+https://github.com/modin-project/modin.git@0c0b6f64bc9c6afc1267fe9fc703a0e30d783f96'
 more-itertools==8.5.0
 msgpack==1.0.0
 multidict==4.7.6
